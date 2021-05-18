@@ -1,5 +1,0 @@
-read -p "Enter the value of n1 = "
-read -p "Enter the value of n2 = "
-read -p "Enter the value of n3 = "
-$result = `[ $n1 -gt $n2 ] && echo $n1 || echo $n3 ) || ( [ $n2 -gt $n3 ] && echo $n2 || echo $n3 ) `
-echo $result
