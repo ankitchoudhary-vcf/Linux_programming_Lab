@@ -1,5 +1,5 @@
 
-# Write a shell script for calculating factorial
+# Write a shell script find the Multiplication Table
 
 
 # Method-1
