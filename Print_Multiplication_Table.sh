@@ -30,6 +30,7 @@ do
     echo "$n1 * $j = $result"
 done
 
+
 # Method-3
 
 read -p "Enter the number >> " n
