@@ -6,7 +6,7 @@
 read -p "Enter the number >> " n
 
 result=0
-for((i=1; i<n; i++))
+for((i=1; i<=n/2; i++))
 do
     if [ $((n%i)) -eq 0 ]
     then
