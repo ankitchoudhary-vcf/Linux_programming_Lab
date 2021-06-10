@@ -68,11 +68,11 @@ done
 
 # Method 3
 
-echo "Find number that is prime between 1-20"
+echo "Find number that is prime between 1-100"
 
 j=1
 
-while [ $j -lt 21 ]
+while [ $j -le 100 ]
 do
     i=2
     c=0
