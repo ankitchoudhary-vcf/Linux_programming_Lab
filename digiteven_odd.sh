@@ -5,17 +5,19 @@ read -p "Enter the number >> " n
 
 even=0
 odd=0
+n=$(echo $n | sed "s/^0*\([1-9]\)/\1/;s/^0*$/0/")
 temp=$n
 while [ $n -gt 0 ]
 do
 
-        if [ $(((n%10)%2)) -eq 0 ]
+        if [ $(((n%10)%2)) -eq 1 ]
+        then
+            echo "odd is $((n%10))"
+            odd=$((odd+1))
+        elif [ $(((n%10)%2)) -eq 0 -a $((n%10)) != 0 ]
         then
             echo "Even is $((n%10))"
             even=$((even+1))
-        else
-            echo "odd is $((n%10))"
-            odd=$((odd+1))
         fi
 
     n=$((n/10))
