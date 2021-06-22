@@ -1,4 +1,4 @@
-arr=(ankit ustav rishab ritu pooja)
+arr=(ankit ustav rishab ritu pooja harry)
 
 # To print all element
 echo ${arr[@]}
@@ -19,7 +19,12 @@ echo ${arr[@]:1}
 
 # length of first element
 echo "Length of first element : " ${#arr[0]}
-echo "Length of the array : " ${#arr}
+echo "Length of first elemet : " ${#arr}
+
+# length of array or the number of element
+echo "Length of the array : " ${#arr[@]}
+echo "Length of the array : " ${#arr[*]}
+
 
 # print array using loop
 
