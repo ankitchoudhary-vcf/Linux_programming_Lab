@@ -14,6 +14,12 @@ echo ${arr[1]}
 echo ${arr[@]:1:4}
 echo ${arr[@]:2:3}
 echo ${arr[0]:1:3}
+echo ${arr[@]:1}
+
+
+# length of first element
+echo "Length of first element : " ${#arr[0]}
+echo "Length of the array : " ${#arr}
 
 # print array using loop
 
@@ -23,3 +29,4 @@ for i in ${index_array[@]}
 do
     echo $i
 done
+
