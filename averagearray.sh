@@ -1,3 +1,5 @@
+# Shell Script
+
 echo "Number of elements in array : "
 read n
 sum=0
