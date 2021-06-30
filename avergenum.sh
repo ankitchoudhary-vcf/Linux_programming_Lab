@@ -1,3 +1,5 @@
+# Shell Script
+
 echo "Numbers : "
 read n
 i=1
