@@ -7,5 +7,5 @@ read -p "Enter your city >> " city
 
 for((i=0; i<n; i++))
 do
-    echo -e "Address:-\t\n $plot,\n $street,\n $city"
+    echo -e "Address:-\n $plot,\n $street,\n $city"
 done
