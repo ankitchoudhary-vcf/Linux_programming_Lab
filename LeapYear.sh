@@ -1,4 +1,4 @@
-
+# write a shell script to check the leap year
 
 read -p "Enter the Year y = " y
 
